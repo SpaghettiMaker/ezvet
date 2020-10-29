@@ -5,6 +5,18 @@ Write a simple PHP Class for a basic shopping cart.
 
 ## Supplied
 Products in an array (these do not require any editing).
+```
+<?php
+// ######## please do not alter the following code ########
+$products = [
+    [ "name" => "Sledgehammer", "price" => 125.75 ],
+    [ "name" => "Axe", "price" => 190.50 ],
+    [ "name" => "Bandsaw", "price" => 562.131 ],
+    [ "name" => "Chisel", "price" => 12.9 ],
+    [ "name" => "Hacksaw", "price" => 18.45 ],
+];
+// ########################################################
+```
 
 ## Requirements
 * The cart will need to keep its "state" during page loads / refreshes.
@@ -25,22 +37,8 @@ same product twice will NOT create two cart items).
 This task should take 1-2 hours max. HTML look will not be a consideration when viewing the
 finished code.
 
-## Product List
-```
-<?php
-// ######## please do not alter the following code ########
-$products = [
-    [ "name" => "Sledgehammer", "price" => 125.75 ],
-    [ "name" => "Axe", "price" => 190.50 ],
-    [ "name" => "Bandsaw", "price" => 562.131 ],
-    [ "name" => "Chisel", "price" => 12.9 ],
-    [ "name" => "Hacksaw", "price" => 18.45 ],
-];
-// ########################################################
-```
-
 ## Requirements
-* PHP 7.2 or greater
+* PHP 7 or greater
 
 ## Steps to run
 1. `git clone [this repository]`
